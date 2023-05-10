@@ -1,0 +1,38 @@
+header {
+    text-align: center;
+    background-color: #F9C81D;
+    color: white;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type=text] {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #F9C81D;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#madLib {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #F9C81D;
+}
